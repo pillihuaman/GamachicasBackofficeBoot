@@ -1,6 +1,5 @@
 package infrastructure.System.Adapters;
 
-import javax.persistence.Id;
 
 public class EntityDBConnection {
 

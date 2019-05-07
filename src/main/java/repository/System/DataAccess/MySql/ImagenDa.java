@@ -5,7 +5,6 @@ import java.math.BigInteger;
 import java.time.LocalDateTime;
 import java.util.BitSet;
 import java.util.List;
-import org.sql2o.Sql2o;
 import domain.System.BusinessEntity.Base.Clothingline;
 import domain.System.BusinessEntity.Base.Imagen;
 import infrastructure.System.Adapters.EntityDBConnection;

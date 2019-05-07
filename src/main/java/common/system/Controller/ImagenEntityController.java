@@ -38,15 +38,12 @@ public class ImagenEntityController {
 	                .contentType(MediaType.IMAGE_JPEG)
 	                .body(bytes);
 	    }
+	    
 	    @RequestMapping("/RegisterImagen")
 	    public ModelAndView mensaje() {
 	      
 	    	return new ModelAndView("RegisterImagen", "command", new ViewStockBE());
 	    }
-	    @RequestMapping("/login")
-	    public ModelAndView login() {
-	      
-	    	return new ModelAndView("login");
-	    }
+	  
 	    	   
 }
