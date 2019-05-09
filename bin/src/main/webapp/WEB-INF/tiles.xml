@@ -21,17 +21,6 @@
        <put-attribute name="title" value="Home" />  
        <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
    </definition>  
-   
-      <definition name="home" extends="base-definition">  
-       <put-attribute name="title" value="Home" />  
-       <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
-   </definition>  
-   
-      <definition name="home" extends="base-definition">  
-       <put-attribute name="title" value="Home" />  
-       <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
-   </definition>  
-   
 
      
     </tiles-definitions>  
